@@ -27,9 +27,9 @@ from Bio import SeqIO
 from Bio.Blast import NCBIXML
 
 
-#ORTHOgrab main class
+#reBLAST main class
 #-----------------------------------------------------------------------------------------
-class OrthoGrab(object):
+class reBLAST(object):
     """
     Run a blast analysis between any two genomes as input and output
     a list of orthologues genes
@@ -217,12 +217,12 @@ def main():
         if Which('blastn') == 0:
             sys.exit("\nBlast not installed!\n")
         else:
-            OrthoGrabObject = OrthoGrab(genome1,genome2,moltype,output)
-            OrthoGrabObject.CreateBlastDir()
-            OrthoGrabObject.CreateBlastDb()
-            OrthoGrabObject.RunBlast()
-            OrthoGrabObject.GetOrthologs()
-            OrthoGrabObject.CleanUp()
+            reBLASTObject = reBLAST(genome1,genome2,moltype,output)
+            reBLASTObject.CreateBlastDir()
+            reBLASTObject.CreateBlastDb()
+            reBLASTObject.RunBlast()
+            reBLASTObject.GetOrthologs()
+            reBLASTObject.CleanUp()
 
 
 #Execute main

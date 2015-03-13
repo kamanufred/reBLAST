@@ -5,7 +5,7 @@ Computational tool for identifying possible orthologues between genomes, given e
 
 #Requirements
 - [Biopython](http://biopython.org/wiki/Main_Page)
-- [NCBI BLAST](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
+- A local installation of the [NCBI BLAST](http://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
 
 #Installation
 \- Checkout the source: `git clone https://github.com/kamanufred/reBLAST.git`  
