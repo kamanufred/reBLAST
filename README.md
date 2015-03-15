@@ -1,5 +1,5 @@
 # reBLAST
-Computational tool for identifying possible orthologues between genomes, given either DNA or Protein sequences.
+Computational tool for identifying possible orthologues between two genomes, given either DNA or Protein sequences.
 
 
 
